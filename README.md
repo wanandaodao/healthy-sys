@@ -1,0 +1,2 @@
+# healthy-sys
+一个基于springboot和vue3开发的前后端分离超简易版健康管理系统，可以给大学生uu们要完成作业的白嫖

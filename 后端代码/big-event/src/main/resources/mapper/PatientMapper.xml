@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wanandaodao.bigevent.mapper.PatientMapper">
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
+        insert into patient(name, gender, phone, age, doctor_id, visit_time, description, caseDescription, user_id,address,service_type)
+        values (#{name},#{gender},#{phone},#{age},#{doctorId},#{visitTime},#{description},#{caseDescription},#{userId},#{address},#{serviceType})
+    </insert>
+</mapper>
